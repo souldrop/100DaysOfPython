@@ -35,3 +35,8 @@ print(password)
 #random.shuffle(password_list)
 #print(password_list)
 
+#password_hard = ""
+#for char in password_list:
+#    password_hard += char
+#print(f"Your password is {password_hard}")
+
