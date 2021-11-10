@@ -1,4 +1,4 @@
-# Step-1 : Guessing a letter from a word
+# Step 2 : Replacing Blanks with Guesses
 import random
 
 word_list = ["ardvark", "baboon", "camel"]
