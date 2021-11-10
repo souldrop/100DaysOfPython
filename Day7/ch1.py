@@ -1,12 +1,13 @@
-# hangman game 
+# Guessing a letter from a word
 import random
 
 word_list = ["ardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
 
-guess_word = input("Guess the word: ").lower()
+guess_letter = input("Guess a letter: ").lower()
 
-if(guess_word == chosen_word):
-    print("You guessed it right, you win!")
-else:
-    print("You guessed it wrong, you lose!")
+for letter in range(len(chosen_word)):
+    if guess_letter == chosen_word[letter]:
+        print("RIGHT")
+    else:
+        print("WRONG")
